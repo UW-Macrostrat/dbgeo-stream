@@ -1,0 +1,38 @@
+{
+  "name": "dbgeo-stream",
+  "version": "1.0.0",
+  "description": "A Node.js module for converting database queries to GeoJSON",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "GeoJSON",
+    "PostGIS",
+    "MySQL",
+    "Postgres",
+    "PostgreSQL",
+    "MariaDB",
+    "MongoDB",
+    "WKT",
+    "WKB",
+    "dbgeo",
+    "geometry",
+    "GIS",
+    "streaming"
+  ],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UW-Macrostrat/dbgeo-stream.git"
+  },
+  "author": "John J Czaplewski",
+  "license": "MIT",
+  "dependencies": {
+    "wkx": "^0.4.2"
+  },
+  "devDependencies": {
+    "async": "~2.0.0",
+    "geojsonhint": "^2.0.0-beta",
+    "pg": "^6.0.2"
+  }
+}
